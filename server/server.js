@@ -47,5 +47,5 @@ newUser.save().then((doc) => {
     console.log('Saved user')
     console.log(JSON.stringify(doc, undefined, 2));
 }, (e) => {
-    console.log('Unabel to save user', e);
+    console.log('Unable to save user', e);
 });
