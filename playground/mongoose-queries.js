@@ -29,6 +29,4 @@ let uid = '5a16f4dcbab9240c3c59e6f9';
 User.findById(uid).then((user) => {
     if (!user) return console.log('User not found');
     console.log('User By Id', user);
-}, (e) => {
-    console.log(e);
-})
+}, (e) => console.log(e));
